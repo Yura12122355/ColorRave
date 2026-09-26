@@ -6,6 +6,7 @@
   --footer-bg-color: #021635;
   --button-color:#8E32C6;
   --reviews-text-color: #D8D8D8;
+  --border-color: #9B9B9B;
  --main-font: "Roboto", sans-serif;
  --second-font: "Playfair Display", serif;
  --logo-font: "PT Serif" , serif;
@@ -265,4 +266,54 @@ color: var(--main-color);
 padding: 20px 49px 20px 48px ;
 font-size: 24px ;
 font-family: inherit;
+}
+
+.footer{
+  padding-top: 46px;
+  padding-bottom: 24px ;
+ background-color: var(--footer-bg-color);
+}
+  
+.footer-wrapper:first-child{
+display: flex;
+justify-content: space-between;
+ padding-bottom: 20px;
+ border-bottom: 1px solid  var(--border-color) ;
+}
+
+.footer-link{
+  color: var(--main-color);
+
+font-size: 24px;
+
+}
+
+.footer-item{
+  padding-bottom: 10px ;
+}
+
+.footer-item:last-child{
+  padding-bottom: 0;
+}
+
+.footer-list_second{
+ text-decoration: underline;
+ text-align: right;
+}
+
+.footer-wrapper:nth-child(2){
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+ padding-top:  24px ;
+ font-size: 18px;
+}
+
+.footer-logo_text{
+  font-size: 24px;
+  font-family: var(--logo-font);
+  color: var(--main-color);
+  text-align: center;
 }
