@@ -176,6 +176,7 @@ border-bottom: 2px  solid var(--main-color) ;
 .reviews-list{
   display: flex;
   gap: 93px ;
+  justify-content: center;
 }
 
 .reviews-item:first-child{
@@ -196,8 +197,10 @@ border-bottom: 2px  solid var(--main-color) ;
 .reviews-item{
   padding: 49px 15px 29px 15px;
   border-radius: 15px;
+  flex-basis: calc((78% - 186px) / 3);
 
 }
+
 .review-name{
   font-size: 14px ;
 }
@@ -324,3 +327,5 @@ font-size: 24px;
   color: var(--main-color);
   text-align: center;
 }
+
+
